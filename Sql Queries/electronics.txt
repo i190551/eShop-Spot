@@ -1,0 +1,25 @@
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('e1','/Images/Air Conditioner.jpeg','Air Conditioner',50,0,50,'Electronics','TCL Heat and Cool DC Inverter Air Conditioner 12HEB-2 - 1 Ton',98500,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Air Conditioner.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('e2','/Images/Stove.jpeg','Oven',50,0,50,'Electronics','Nasgas Built-in Oven NG – 560 Fully Efficient Thermostatically Controlled',38500,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Stove.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('e3','/Images/Fridge.jpeg','Refridgerator',50,0,50,'Electronics','Siemens KA58NA70NE - Side by Side Refrigerator - Silver',350000,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Fridge.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('e4','/Images/Fan.jpeg','Cooler',50,0,50,'Electronics','Boss Air Cooler K.E. ECM- I.B 7000 - Excel + Plus Ice Box',22000,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Fan.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('e5','/Images/LCD.jpeg','LED',50,0,50,'Electronics','TCL 43 Inches P725 UHD Android TV',65000,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/LCD.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('e6','/Images/Washing Machine.jpeg','Washing Machine',50,0,50,'Electronics','Haier -09kg/Fully Automatic/ Top Loading Washing Machine',65000,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Washing Machine.jpeg'));
+
+
+
+
+
+
+
+

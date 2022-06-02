@@ -1,0 +1,14 @@
+Create table promocodes(
+pcid Varchar(10) primary key,
+pcnum int,
+pcoff int
+);
+
+INSERT INTO promocodes (pcid,pcnum,pcoff)
+VALUES ('pc1',4202,50);
+
+INSERT INTO promocodes (pcid,pcnum,pcoff)
+VALUES ('pc2',6662,50);
+
+INSERT INTO promocodes (pcid,pcnum,pcoff)
+VALUES ('pc3',5151,30);

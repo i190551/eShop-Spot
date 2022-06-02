@@ -1,0 +1,21 @@
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('g1','/Images/Earphones.jpeg','Earphones',50,0,50,'Gadgets','Infinix Sports Bluetooth Earphone XE07 HD Noise Reduction',1295,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Earphones.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('g2','/Images/Selfie Stick.jpeg','Selfie Stick',50,0,50,'Gadgets','Selfie Stick For Smartphones & Digital Cameras',550,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Selfie Stick.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('g3','/Images/Phone case.jpeg','Phones Case',50,0,50,'Gadgets','Underwater Waterproof Rainproof Mobile Case PVC Bag Transparent',500,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Phone case.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('g4','/Images/Watch.jpeg','Watch',50,0,50,'Gadgets','Eastern Watches Sport Digital & Silicone Straps Smart Watch',1200,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Watch.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('g5','/Images/Bracelet.jpeg','Bracelet',50,0,50,'Gadgets','Anchor Bracelet Nautical Black Paracord Silver Anchor Men Adjustable-Zvs',700,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Bracelet.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('g6','/Images/Controller.jpeg','Controller',50,0,50,'Gadgets','AK66 Mobile Game Controller Trigger Six Finger All-in-one Joystick',4500,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Controller.jpeg'));
+
+
+
+

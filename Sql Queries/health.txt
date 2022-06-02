@@ -1,0 +1,29 @@
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('h1','/Images/Vitamin.jpeg','Vitamin C Powder',50,0,50,'Health','Vitamin C Powder 50g (Ascorbic Acid) For Face Skin shine',500,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Vitamin.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('h2','/Images/Liver.jpeg','Oil',50,0,50,'Health','SevenSeas Cod Liver Oil -150ml',650,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Liver.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('h3','/Images/Serups.jpeg','MultiVitamins',50,0,50,'Health','Mialiq Multivitamins - Birds Vitamins - Loose Packing 100ml ',1350,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Serups.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('h4','/Images/Oil.jpeg','Organic Oil',50,0,50,'Health','Avocado oil pure and organic 30ml',750,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Oil.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('h5','/Images/Masks.jpeg','Face Masks',50,0,50,'Health','Surgical Face Masks',400,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Masks.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('h6','/Images/Sunblock.jpeg','Sun Blocks',50,0,50,'Health','EUcerin sun protection sunblock',1130,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Sunblock.jpeg'));
+
+
+
+
+
+
+
+
+
+
+
+

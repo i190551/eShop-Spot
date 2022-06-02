@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.faqController">
+   <top>
+      <AnchorPane prefHeight="700.0" prefWidth="1300.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="80.0" fitWidth="168.0" layoutX="31.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/WhatsApp%20Image%202022-05-26%20at%205.44.58%20PM.jpeg" />
+               </image>
+            </ImageView>
+            <Text layoutX="115.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Management -&gt; My Account">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Button fx:id="q1" layoutX="149.0" layoutY="201.0" mnemonicParsing="false" onAction="#q1ans" style="-fx-background-color: #ffffff;" text="Can I access eShopSpot account from multiple devices?" textFill="#8a528d">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="q2" layoutX="149.0" layoutY="235.0" mnemonicParsing="false" onAction="#q2ans" style="-fx-background-color: #ffffff;" text="How to subscribe eShopSpot Newsletters?" textFill="#8a528d">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="q3" layoutX="149.0" layoutY="270.0" mnemonicParsing="false" onAction="#q3ans" style="-fx-background-color: #ffffff;" text="What should I do if my phone number is already registered with another account?" textFill="#8a528d">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Button>
+            <Text layoutX="116.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Management -&gt; Privacy &amp; Security">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Button fx:id="q4" layoutX="155.0" layoutY="357.0" mnemonicParsing="false" onAction="#q4ans" style="-fx-background-color: #ffffff;" text="How does eShopSpot protect the customer's data?" textFill="#8a528d">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="q5" layoutX="157.0" layoutY="398.0" mnemonicParsing="false" onAction="#q5ans" style="-fx-background-color: #ffffff;" text="What safety measures can I take on eShopSpot to avoid being hacked or scammed?" textFill="#8a528d">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Button>
+            <Text layoutX="121.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Orders -&gt; Vouchers" wrappingWidth="309.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Button fx:id="q6" layoutX="155.0" layoutY="476.0" mnemonicParsing="false" onAction="#q6ans" style="-fx-background-color: #ffffff;" text="What is the validity of vouchers?" textFill="#8a528d">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="q7" layoutX="157.0" layoutY="510.0" mnemonicParsing="false" onAction="#q7ans" style="-fx-background-color: #ffffff;" text="Where can I check my vouchers?" textFill="#8a528d">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Button>
+            <Text layoutX="119.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payments -&gt; Payment Method" wrappingWidth="309.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Button fx:id="q8" layoutX="159.0" layoutY="577.0" mnemonicParsing="false" onAction="#q8ans" style="-fx-background-color: #ffffff;" text="I am unable to pay through EasyPaisa Direct, what should I do?" textFill="#8a528d">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Button>
+            <RadioButton fx:id="yes" layoutX="1166.0" layoutY="602.0" mnemonicParsing="false" onAction="#response" text="YES" textFill="#8a528d">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="answer" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="no" layoutX="1225.0" layoutY="602.0" mnemonicParsing="false" onAction="#response" text="NO" textFill="#8a528d" toggleGroup="$answer">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </RadioButton>
+            <Text layoutX="1022.0" layoutY="615.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Is this helpful for you?" />
+            <Pane layoutY="648.0" prefHeight="52.0" prefWidth="1300.0" style="-fx-background-color: #8a528d;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mail Us: eshopSpotinfo@eshopspot.com">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="565.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Call Us: 051-0123456" wrappingWidth="170.6484375">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="999.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address: eshopSpot Building, Main Shahrah-e-Faisal,Islamabad." wrappingWidth="300.6484375">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Label layoutX="456.0" layoutY="126.0" text="Frequently Asked Questions (FAQs)">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="homepage" layoutX="1080.0" layoutY="76.0" mnemonicParsing="false" onAction="#homepageBttn" prefHeight="35.0" prefWidth="136.0" style="-fx-background-color: #8a528d;" text="Home Page" textFill="#daa7ce">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Text fill="#868181" layoutX="1056.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click here to go back to Main Page" />
+            <Pane prefHeight="44.0" prefWidth="1300.0" style="-fx-background-color: #8a528d;">
+               <children>
+                  <Button fx:id="customerCare1" layoutX="723.0" layoutY="10.0" mnemonicParsing="false" onAction="#customerCareBttn" style="-fx-background-color: #8a528d;" text="CUSTOMER CARE" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="becomeMember1" layoutX="876.0" layoutY="10.0" mnemonicParsing="false" onAction="#becomeMemberBttn" style="-fx-background-color: #8a528d;" text="BECOME A MEMBER" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="login1" layoutX="1039.0" layoutY="10.0" mnemonicParsing="false" onAction="#loginBttn" style="-fx-background-color: #8a528d;" text="LOGIN" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="signup1" layoutX="1129.0" layoutY="10.0" mnemonicParsing="false" onAction="#signUpBttn" style="-fx-background-color: #8a528d;" text="SIGN UP" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="faq1" layoutX="1222.0" layoutY="10.0" mnemonicParsing="false" onAction="#faqBttn" style="-fx-background-color: #8a528d;" text="FAQ" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="CancelOrder" layoutX="590.0" layoutY="10.0" mnemonicParsing="false" onAction="#CancelorderBttn" style="-fx-background-color: #8a528d;" text="CANCEL ORDER" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="logout" layoutX="486.0" layoutY="10.0" mnemonicParsing="false" onAction="#logoutbtn" style="-fx-background-color: #8a528d;" text="LOGOUT" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

@@ -1,0 +1,25 @@
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('k1','/Images/Sandals.jpeg','Sandals',50,0,50,'Kids Clothing','Strappy Velcro Sandals',1690,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Sandals.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('k2','/Images/Denim Shorts Kids.jpeg','Shorts',50,0,50,'Kids Clothing','Basic Denim Shorts',2090,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Denim Shorts Kids.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('k3','/Images/Button Down.jpeg','Shirt',50,0,50,'Kids Clothing','Classic Collar Button Down Shirt',2590,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Button Down.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('k4','/Images/Spider Tee.jpeg','T Shirt',50,0,50,'Kids Clothing','Color Block Spider Graphic Tee',1250,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Spider Tee.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('k5','/Images/Graphic Tee.jpeg','T Shirt',50,0,50,'Kids Clothing','Gradient Graphic Tee',1290,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Graphic Tee.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('k6','/Images/Tie Dye.jpeg','T Shirt',50,0,50,'Kids Clothing','Gathered Hem Tie-Dye Tee',1490,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Tie Dye.jpeg'));
+
+
+
+
+
+
+
+

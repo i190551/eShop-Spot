@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.cartController">
+   <right>
+      <AnchorPane prefHeight="700.0" prefWidth="1300.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="44.0" prefWidth="1300.0" style="-fx-background-color: #8a528d;">
+               <children>
+                  <Button fx:id="customerCare" layoutX="723.0" layoutY="10.0" mnemonicParsing="false" onAction="#customerCareBttn" style="-fx-background-color: #8a528d;" text="CUSTOMER CARE" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="becomeMember" layoutX="876.0" layoutY="10.0" mnemonicParsing="false" onAction="#becomeMemberBttn" style="-fx-background-color: #8a528d;" text="BECOME A MEMBER" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="login" layoutX="1039.0" layoutY="10.0" mnemonicParsing="false" onAction="#loginBttn" style="-fx-background-color: #8a528d;" text="LOGIN" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="signup" layoutX="1129.0" layoutY="10.0" mnemonicParsing="false" onAction="#signUpBttn" style="-fx-background-color: #8a528d;" text="SIGN UP" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="faq" layoutX="1222.0" layoutY="10.0" mnemonicParsing="false" onAction="#faqBttn" style="-fx-background-color: #8a528d;" text="FAQ" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="CancelOrder" layoutX="590.0" layoutY="10.0" mnemonicParsing="false" onAction="#CancelorderBttn" style="-fx-background-color: #8a528d;" text="CANCEL ORDER" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="logout" layoutX="486.0" layoutY="10.0" mnemonicParsing="false" onAction="#logoutbtn" style="-fx-background-color: #8a528d;" text="LOGOUT" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane layoutY="648.0" prefHeight="52.0" prefWidth="1300.0" style="-fx-background-color: #8a528d;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mail Us: eshopSpotinfo@eshopspot.com">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="565.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Call Us: 051-0123456" wrappingWidth="170.6484375">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="999.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address: eshopSpot Building, Main Shahrah-e-Faisal,Islamabad." wrappingWidth="300.6484375">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <ImageView fitHeight="80.0" fitWidth="168.0" layoutX="24.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/WhatsApp%20Image%202022-05-26%20at%205.44.58%20PM.jpeg" />
+               </image>
+            </ImageView>
+            <Pane layoutY="138.0" prefHeight="323.0" prefWidth="229.0" style="-fx-background-color: #8a528d;">
+               <children>
+                  <Text fill="#daa7ce" fontSmoothingType="LCD" layoutX="59.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Categories">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="womenCLothing" layoutX="58.0" layoutY="58.0" mnemonicParsing="false" onAction="#womenClothingBttn" style="-fx-background-color: #8a528d;" text="Women Clothing" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="menClothing" layoutX="67.0" layoutY="91.0" mnemonicParsing="false" onAction="#menClothingBttn" style="-fx-background-color: #8a528d;" text="Men Clothing" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="kidClothing" layoutX="67.0" layoutY="129.0" mnemonicParsing="false" onAction="#kidsClothingBttn" style="-fx-background-color: #8a528d;" text="Kids Clothing" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="beauty" layoutX="85.0" layoutY="162.0" mnemonicParsing="false" onAction="#beautyBttn" style="-fx-background-color: #8a528d;" text="Beauty" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="health" layoutX="86.0" layoutY="195.0" mnemonicParsing="false" onAction="#healthBttn" style="-fx-background-color: #8a528d;" text="Health" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="electronics" layoutX="74.0" layoutY="229.0" mnemonicParsing="false" onAction="#electronicsBttn" style="-fx-background-color: #8a528d;" text="Electronics" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="gadgets" layoutX="83.0" layoutY="270.0" mnemonicParsing="false" onAction="#gadgetsBttn" style="-fx-background-color: #8a528d;" text="Gadgets" textFill="#daa7ce">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Button fx:id="home" layoutX="21.0" layoutY="480.0" mnemonicParsing="false" onAction="#homePageBtn" prefHeight="25.0" prefWidth="187.0" style="-fx-background-color: #8a528d;" text="Home Page" textFill="#daa7ce">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Text layoutX="22.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click here to go back to Main Page" />
+            <ImageView fx:id="cardBtn" fitHeight="39.0" fitWidth="56.0" layoutX="1219.0" layoutY="59.0" onMouseClicked="#CartViewBtn" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/231-2317581_cart-icon-png-gray.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="discover" layoutX="1077.0" layoutY="67.0" mnemonicParsing="false" onAction="#discoverBttn" prefHeight="25.0" prefWidth="99.0" style="-fx-background-color: #ffffff;" text="DISCOVER" textFill="#8a528d">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="61.0" fitWidth="70.0" layoutX="1034.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/ulA8ip-light-bulb-clipart-hd.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Picture1" fitHeight="141.0" fitWidth="130.0" layoutX="310.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="Picture3" fitHeight="141.0" fitWidth="130.0" layoutX="310.0" layoutY="407.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="Picture2" fitHeight="141.0" fitWidth="130.0" layoutX="678.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="Picture4" fitHeight="141.0" fitWidth="130.0" layoutX="678.0" layoutY="407.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="payment" layoutX="1034.0" layoutY="589.0" mnemonicParsing="false" onAction="#paymentBtn" prefHeight="35.0" prefWidth="221.0" style="-fx-background-color: #8a528d;" text="Proceed to Payment" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="details1" layoutX="345.0" layoutY="316.0" mnemonicParsing="false" onAction="#details1Btn" style="-fx-background-color: #d073ba;" text="DETAILS" textFill="WHITE" />
+            <Button fx:id="details3" layoutX="345.0" layoutY="570.0" mnemonicParsing="false" onAction="#details3Btn" style="-fx-background-color: #d073ba;" text="DETAILS" textFill="WHITE" />
+            <Button fx:id="details2" layoutX="719.0" layoutY="316.0" mnemonicParsing="false" onAction="#details2Btn" style="-fx-background-color: #d073ba;" text="DETAILS" textFill="WHITE" />
+            <Button fx:id="details4" layoutX="719.0" layoutY="570.0" mnemonicParsing="false" onAction="#details4Btn" style="-fx-background-color: #d073ba;" text="DETAILS" textFill="WHITE" />
+            <Label fx:id="n1" layoutX="472.0" layoutY="154.0" prefHeight="17.0" prefWidth="148.0" text="Name" />
+            <Label fx:id="q1" layoutX="472.0" layoutY="187.0" prefHeight="17.0" prefWidth="149.0" text="Quantity" />
+            <Label fx:id="d1" alignment="TOP_LEFT" layoutX="472.0" layoutY="257.0" prefHeight="87.0" prefWidth="149.0" text="Description" wrapText="true" />
+            <Label fx:id="p1" layoutX="472.0" layoutY="221.0" prefHeight="17.0" prefWidth="148.0" text="Price" />
+            <Label fx:id="n3" layoutX="472.0" layoutY="407.0" prefHeight="17.0" prefWidth="148.0" text="Name" />
+            <Label fx:id="q3" layoutX="472.0" layoutY="440.0" prefHeight="17.0" prefWidth="149.0" text="Quantity" />
+            <Label fx:id="d3" alignment="TOP_LEFT" layoutX="472.0" layoutY="510.0" prefHeight="87.0" prefWidth="149.0" text="Description" wrapText="true" />
+            <Label fx:id="p3" layoutX="472.0" layoutY="474.0" prefHeight="17.0" prefWidth="148.0" text="Price" />
+            <Label fx:id="n2" layoutX="842.0" layoutY="154.0" prefHeight="17.0" prefWidth="148.0" text="Name" />
+            <Label fx:id="q2" layoutX="842.0" layoutY="187.0" prefHeight="17.0" prefWidth="149.0" text="Quantity" />
+            <Label fx:id="d2" alignment="TOP_LEFT" layoutX="842.0" layoutY="257.0" prefHeight="87.0" prefWidth="149.0" text="Description" wrapText="true" />
+            <Label fx:id="p2" layoutX="842.0" layoutY="221.0" prefHeight="17.0" prefWidth="148.0" text="Price" />
+            <Label fx:id="n4" layoutX="842.0" layoutY="401.0" prefHeight="17.0" prefWidth="148.0" text="Name" />
+            <Label fx:id="q4" layoutX="842.0" layoutY="434.0" prefHeight="17.0" prefWidth="149.0" text="Quantity" />
+            <Label fx:id="d4" alignment="TOP_LEFT" layoutX="842.0" layoutY="504.0" prefHeight="87.0" prefWidth="149.0" text="Description" wrapText="true" />
+            <Label fx:id="p4" layoutX="842.0" layoutY="468.0" prefHeight="17.0" prefWidth="148.0" text="Price" />
+            <Text fill="#4a4545" layoutX="273.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cart : Shows itmes added to the cart">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Label fx:id="loggedinname" layoutX="1203.0" layoutY="108.0" prefHeight="25.0" prefWidth="80.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalProducts" layoutX="1062.0" layoutY="494.0" onMouseClicked="#totalProductsClick" text="Total Products in the cart">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="QtnProducts" alignment="CENTER" layoutX="1103.0" layoutY="524.0" prefHeight="48.0" prefWidth="84.0" promptText="Products" text="Total">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

@@ -1,0 +1,30 @@
+Create table products(
+pid Varchar(10) primary key,
+image_path varchar(300),
+name Varchar(500),
+qtn int,
+sold int,
+remaining int, 
+type Varchar(250),
+description Varchar(850),
+price real,
+image longblob
+);
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('w1','/Images/Jumpsuit.jpeg','Jumpsuit',50,0,50,'Women Clothing','Linen Blend Co-ord Set',3500,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Jumpsuit.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('w2','/Images/Denim Shorts.jpeg','Denim Shorts',50,0,50,'Women Clothing','Straight Fit Denim Shorts',1500,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Denim Shorts.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('w3','/Images/Skirt.jpeg','Skirt',50,0,50,'Women Clothing','Midi Tier Floral Skirt',1200,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Skirt.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('w4','/Images/Button Down Shirt.jpeg','Shirt',50,0,50,'Women Clothing','Button Down Shirt',2000,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Button Down Shirt.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('w5','/Images/Trousers.jpeg','Trousers',50,0,50,'Women Clothing','Slouchy Fit Trousers',1800,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Trousers.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('w6','/Images/T-Shirt.jpeg',"T-shirt",50,0,50,"Women Clothing","Regular Fit Los Angeles Rib Textured Graphic Tee",1000,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/T-Shirt.jpeg'));

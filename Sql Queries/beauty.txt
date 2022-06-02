@@ -1,0 +1,22 @@
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('b1','/Images/Lip.jpeg','lipstick',50,0,50,'Beauty','Matte lipstick, Waterproof Lipstick',399,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Lip.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('b2','/Images/Lens.jpeg','Eye Contact Lenses',50,0,50,'Beauty','Green Color Eye Contact Lenses soft + Free kit case and water ',699,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Lens.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('b3','/Images/Palette.jpeg','Eye Shadow',50,0,50,'Beauty','Eyeshadow 9 Colors Kit (Palette)',350,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Palette.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('b4','/Images/Charcoal.jpeg','Charcoal',50,0,50,'Beauty','1 x Activated Charcoal Powder 100 Gram',270,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Charcoal.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('b5','/Images/Foundation.jpeg','Foundation',50,0,50,'Beauty','Miss Rose Foundation Makeup Liquid Oil Control Purely Natural',470,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Foundation.jpeg'));
+
+INSERT INTO products (pid,image_path,name,qtn,sold,remaining,type,description,price,image)
+VALUES ('b6','/Images/Guasha.jpeg','Face Massager',50,0,50,'Beauty','Jade Facial Roller and Gua Sha Stone Duo',470,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Guasha.jpeg'));
+
+
+
+

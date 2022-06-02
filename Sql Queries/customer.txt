@@ -1,0 +1,49 @@
+Create table customers (
+cid Varchar(10) primary key,
+name varchar(200),
+phoneNo varchar(15),
+email varchar(150),
+dob varchar(50),
+password varchar(60),
+isMember varchar(25)
+);
+
+INSERT INTO customers (cid,name,phoneNo,email,dob,password,isMember)
+VALUES ('c1','Usama Khan','03035665554','samkhan@gmail.com','6-9-2000','usama123','No');
+INSERT INTO customers (cid,name,phoneNo,email,dob,password,isMember)
+VALUES ('c2','Aliyan Shahid Satti','03175833221','aliyansatti@gmail.com','4-9-1998','aliyan123','Yes');
+
+Create table cart (
+citem varchar(10) primary key,
+pid varchar(10),
+cid varchar(10),
+qtn int,
+foreign key(pid) references products(pid),
+foreign key(cid) references customers(cid)
+);
+
+Insert into cart (citem,pid,cid,qtn) 
+Values ('ct1','e1','c1',2);
+Insert into cart (citem,pid,cid,qtn) 
+Values ('ct2','g3','c1',1);
+Insert into cart (citem,pid,cid,qtn) 
+Values ('ct3','m4','c1',1);
+Insert into cart (citem,pid,cid,qtn) 
+Values ('ct4','m2','c2',1);
+Insert into cart (citem,pid,cid,qtn) 
+Values ('ct5','m6','c1',1);
+
+Create table member (
+mid varchar(10) primary key,
+cid varchar(10),
+preferences varchar(500),
+address varchar(500),
+wallet real,
+card real,
+bankaccount varchar(150),
+foreign key(cid) references customers(cid)
+);
+
+Insert into member (mid,cid,preferences,address,wallet,card,bankaccount)
+values ('m1','c2','Clothing,Health','House #10, Street #2,Faizabad',6500,11240,'237778933')
+

@@ -1,0 +1,5 @@
+Create table orders (
+orderNo Varchar(15) primary key,
+id Varchar(15),
+paymentType Varchar(50)
+);

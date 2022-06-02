@@ -1,0 +1,29 @@
+Create table trendingproducts(
+tdid Varchar(10) primary key,
+image_path varchar(300),
+name Varchar(500),
+qtn int,
+sold int,
+remaining int, 
+type Varchar(250),
+description Varchar(850),
+price real,
+image longblob,
+pid varchar(10), 
+FOREIGN KEY (pid) REFERENCES products(pid)
+);
+
+INSERT INTO trendingproducts (tdid,image_path,name,qtn,sold,remaining,type,description,price,image,pid)
+VALUES ('td1','/Images/Palette.jpeg','Eye Shadow',50,0,50,'Beauty','Eyeshadow 9 Colors Kit (Palette)',350,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Palette.jpeg'),'b3');
+
+INSERT INTO trendingproducts (tdid,image_path,name,qtn,sold,remaining,type,description,price,image,pid)
+VALUES ('td2','/Images/LCD.jpeg','LED',50,0,50,'Electronics','TCL 43 Inches P725 UHD Android TV',65000,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/LCD.jpeg'),'e5');
+
+INSERT INTO trendingproducts (tdid,image_path,name,qtn,sold,remaining,type,description,price,image,pid)
+VALUES ('td3','/Images/Watch.jpeg','Watch',50,0,50,'Gadgets','Eastern Watches Sport Digital & Silicone Straps Smart Watch',1200,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Watch.jpeg'),'g4');
+
+INSERT INTO trendingproducts (tdid,image_path,name,qtn,sold,remaining,type,description,price,image,pid)
+VALUES ('td4','/Images/Lens.jpeg','Eye Contact Lenses',50,0,50,'Beauty','Green Color Eye Contact Lenses soft + Free kit case and water ',699,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Lens.jpeg'),'b2');
+
+INSERT INTO trendingproducts (tdid,image_path,name,qtn,sold,remaining,type,description,price,image,pid)
+VALUES ('td5','/Images/Tie Dye.jpeg','T Shirt',50,0,50,'Kids Clothing','Gathered Hem Tie-Dye Tee',1490,load_file('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Images/Tie Dye.jpeg'),'k6');
